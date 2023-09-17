@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="file:///C:/Users/marc/Documents/BUT%20Informatique/Travail/TP%20%C3%A0%20envoyer/dev%20web/mon_css.css" rel="stylesheet"/>
+    <title>monsite</title>
+    
+  </head>
+  <body>
+    <header>    
+      <h1>Mon site à moi</h1>
+      <ul>
+        <li><img src="file:///C:/Users/marc/Documents/BUT%20Informatique/Travail/TP%20%C3%A0%20envoyer/dev%20web/ballon.jpeg"/></li>
+        <li><img src="file:///C:/Users/marc/Documents/BUT%20Informatique/Travail/TP%20%C3%A0%20envoyer/dev%20web/roue.jpeg"/></li>
+        <li><img src="file:///C:/Users/marc/Documents/BUT%20Informatique/Travail/TP%20%C3%A0%20envoyer/dev%20web/zen.jpeg"/></li>
+      </ul>
+    </header>
+    <main>
+      <p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet at lacus eget dapibus. Pellentesque auctor venenatis dictum. Cras vitae arcu eu justo cursus hendrerit eu ac ante. Maecenas non rutrum magna. Nam a turpis quis quam imperdiet imperdiet. In rutrum turpis id ex bibendum, et lacinia quam venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam sit amet condimentum metus. Cras eget cursus elit, non fermentum massa. Etiam vitae ultrices dolor. Nam eu urna diam. Suspendisse tristique sed mi eu tincidunt. Mauris commodo mauris erat, ut semper nisl pharetra tempor.
+
+Quisque tincidunt luctus massa. Pellentesque tincidunt sit amet arcu sit amet tempor. Nullam vel libero porta, faucibus diam a, commodo tortor. Nunc erat nibh, condimentum quis condimentum sit amet, rhoncus vitae felis. Phasellus eu enim id nunc bibendum viverra. Nam in finibus nunc. Aenean faucibus faucibus felis eget ullamcorper. Aenean rutrum venenatis risus, et congue enim bibendum sit amet. Sed in felis posuere, molestie odio vel, viverra purus.
+
+Mauris eget scelerisque risus, id ornare tortor. Sed congue erat et ante ultricies, non blandit purus suscipit. Nulla sagittis nisl sed metus eleifend, vitae malesuada nibh fringilla. Aliquam erat volutpat. Nulla porta tincidunt pharetra. Mauris dictum quam elit, vitae viverra sapien volutpat sit amet. Suspendisse ut posuere odio. Pellentesque metus risus, vestibulum quis mauris vitae, semper interdum neque. Nunc egestas vitae sapien id laoreet. Maecenas at lacus tempor, egestas odio sed, fermentum mauris.
+
+Sed a magna erat. Etiam non dolor ac urna fringilla fermentum. Quisque metus nulla, eleifend eu blandit at, varius vitae nisl. Suspendisse interdum et risus volutpat ullamcorper. Donec vehicula arcu purus, at faucibus est volutpat in. Integer eget ipsum malesuada tellus viverra mattis. Aenean semper mi ac quam feugiat, eget semper magna gravida. Ut fermentum porta pretium. Pellentesque leo tellus, mattis vitae facilisis sit amet, tristique at purus. Proin fermentum dui sed dui sodales malesuada. Nunc a vehicula purus. Nunc non lacus iaculis, venenatis dui eu, commodo tellus. Etiam ut posuere ex.
+
+Fusce libero sapien, aliquam ut rutrum sed, viverra et felis. Donec sapien turpis, finibus sed tortor id, volutpat vulputate metus. In et ante tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce malesuada dapibus leo et consectetur. Vestibulum urna augue, vulputate egestas tortor eu, feugiat faucibus justo. Pellentesque et laoreet arcu. Integer iaculis, ligula non semper porttitor, ligula sem ultricies velit, a elementum nisi elit at metus. Vivamus massa urna, consectetur ac risus vel, aliquet varius nunc. Donec sed dignissim ante, vel gravida nisi. Vivamus ut nulla id justo tempus fermentum sed sit amet libero. Nulla facilisis purus et leo faucibus, quis posuere dui posuere. Etiam quam diam, euismod id turpis ut, lobortis dignissim metus. Nam placerat eget mi ut tempor. </p>
+      <nav>
+        <ul>
+          <li><a href="">Musique</a></li>
+          <li><a href="">Photos</a></li>
+          <li><a href="">Amis</a></li>
+          <li><a href="">Liens</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer>
+      <p>Contact: moi@exemple.fr</p>
+      <p>Copyright (c) exemple.ord - 2021</p>
+    </footer>
+  </body>
+</html>
+
+
+
+
+(VOICI POUR LE HTML, MAINTENANT, LE CSS)
+
+
+
+/* Positionnement des images de la liste du header */
+header ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* dans le main */
+  main{
+    display: flex;
+  }
+  
+  main p{
+    flex-basis: 60%;
+    flex-grow: 1;
+  }
+  
+  main nav {
+    flex-basis: 30%;
+    flex-grow: 1;
+  }
+  
+  /* dans le footer */
+  footer{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+main, h1{ padding: 1em;}
+
+html{
+  background-color: lightgray;
+}
+
+img{
+  height: 10rem;
+  width: auto;
+  border-radius: 10%;
+  filter: drop-shadow(10px 5px 2px #6e6e72);
+}
+
+main p{
+  background-color: gainsboro;
+}
+
+main li{
+  border: thin solid black;
+  padding: 1em;
+  background-color: gainsboro;
+}
+
+footer{
+  border: thin solid black;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+h1,p {
+  color: rgb(250, 110, 75);
+}
